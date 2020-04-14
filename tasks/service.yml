@@ -1,0 +1,3 @@
+#start ntp service
+- name: starting ntp service
+  service: name=ntp state=started

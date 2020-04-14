@@ -1,0 +1,5 @@
+#Configure ntp
+- name: ntp.conf file
+  copy: src=ntp.conf dest=/etc/ntp.conf
+  notify:
+   - restart ntp service

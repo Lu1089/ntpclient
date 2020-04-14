@@ -1,0 +1,5 @@
+# Installation of NTP Client
+- name: install ntp
+  apt:
+   name: ntp
+   state: latest
